@@ -9,6 +9,8 @@ class Game:
     def __init__(self):
         self.moves_history = []
 
+    def decider(self):
+        pass
 
 class Player:
     def __init__(self):
@@ -33,9 +35,9 @@ if __name__ == '__main__':
     player_2 = Player()
 
     while True:
-        pass
+        break
 
-    play = decide()
+    play = roll_hand()
     print(play)
 
 # USE OOPS for players
